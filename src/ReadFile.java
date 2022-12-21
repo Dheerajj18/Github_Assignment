@@ -37,12 +37,11 @@ public class ReadFile {
             String tempUCword = word.toLowerCase();
 
             if(mapOfRepeatedWord.containsKey(tempUCword)){
-
                 mapOfRepeatedWord.put(tempUCword,
+
                         mapOfRepeatedWord.get(tempUCword) + 1);
             }
             else {
-
                 mapOfRepeatedWord.put(tempUCword, 1);
             }
         }
